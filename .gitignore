@@ -1,0 +1,116 @@
+# =========================
+
+# 🌐 General
+
+# =========================
+
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+
+# =========================
+
+# 🟦 Node / React / Vite
+
+# =========================
+
+node_modules/
+dist/
+build/
+.vite/
+coverage/
+
+# Env files
+
+.env
+.env.*
+!.env.example
+
+# Package managers
+
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# =========================
+
+# 🟪 .NET
+
+# =========================
+
+bin/
+obj/
+
+# User-specific files
+
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / VS / VS Code
+
+.vs/
+.vscode/
+.idea/
+
+# Logs
+
+*.log
+
+# =========================
+
+# 🧪 Testing
+
+# =========================
+
+TestResults/
+*.trx
+
+# =========================
+
+# 📦 NuGet
+
+# =========================
+
+*.nupkg
+.nuget/
+packages/
+
+# =========================
+
+# 🔐 Secrets
+
+# =========================
+
+secrets.json
+
+# =========================
+
+# 🗄️ Database (optional)
+
+# =========================
+
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================
+
+# 🐳 Docker (if you add later)
+
+# =========================
+
+docker-compose.override.yml
+
+# =========================
+
+# ⚡ Misc
+
+# =========================
+
+*.cache
+*.pid
+*.seed
