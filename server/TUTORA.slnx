@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/TUTORA.API/TUTORA.API.csproj" />
+    <Project Path="src/TUTORA.Application/TUTORA.Application.csproj" />
+    <Project Path="src/TUTORA.Domain/TUTORA.Domain.csproj" />
+    <Project Path="src/TUTORA.Infrastructure/TUTORA.Infrastructure.csproj" />
+  </Folder>
+</Solution>
