@@ -1,6 +1,6 @@
 import { enroll, getMyEnrollments, updateProgress, dropEnrollment } from "@/lib/api/enrollments";
 import { handleApiError } from "@/lib/api/handleError";
-import type { Enrollment } from "@/lib/api/enrollments";
+import { Enrollment } from "@/types/enrollment";
 
 const enrollmentService = {
   async enroll(courseId: string): Promise<Enrollment> {
@@ -11,7 +11,7 @@ const enrollmentService = {
       handleApiError(error);
     }
   },
-
+ 
   async listMine(): Promise<Enrollment[]> {
     try {
       const res = await getMyEnrollments();
